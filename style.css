@@ -1,6 +1,10 @@
-/* ==========================================================================
-   1. 기본 스타일 초기화 및 베이스
-   ========================================================================== */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('PretendardVariable.woff2') format('woff2-variations');
+  font-weight: 100 900; /* 100(Thin)부터 900(Black)까지 모두 대응 */
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -52,7 +52,13 @@ body {
   font-weight: 700;
   letter-spacing: -0.5px;
 }
-
+.instagram-link {
+  color: #ffffff; /* 기본 아이콘 색상 흰색 지정 */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
 .instagram-icon {
   width: 24px;
   height: 24px;
